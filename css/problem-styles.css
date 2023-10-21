@@ -1,0 +1,149 @@
+body{
+	font-family: arial;
+	font-size: 16pt;
+}
+
+input{
+	font-size: 16pt;
+	background-color: #ffffe0;
+}
+
+button{
+	font-size: 16pt;
+	background-color: #e0ffe0;
+	margin: 5pt;
+	padding: 5pt;
+	border-radius: 14px;
+}
+
+.numericInput{
+	text-align: right;
+}
+
+.contentArea{
+	background-color: lightslategrey;
+	border: 2pt #808080 solid;
+	margin: 5pt;
+	padding: 5pt;
+	border-radius: 14px;
+}
+
+.presentationTable{
+	border: 4pt #808080 solid;
+	padding: 5pt;
+	font-size: 24pt;
+}
+
+.inputCell{
+	border: 2pt #808080 solid;
+	padding: 1pt;
+	font-size: 24pt;
+}
+
+.operandOne{
+	background-color:aquamarine;
+	text-align: center;
+	font-weight: bold;
+}
+
+.operandTwo{
+	background-color:aqua;
+	text-align: center;
+	font-weight: bold;
+}
+
+.operandUnits{
+	color: green;
+}
+
+.operandTens{
+	color: blue;
+}
+
+.operandHundreds{
+	color: red;
+}
+
+.operandMultiplier{
+	background-color:aqua;
+	text-align: center;
+	color: #707070;
+}
+
+.carry3{
+	background-color: #d0d0a0;
+	font-weight: bolder;
+	font-size: 24pt;
+	padding: 0px;
+	margin: 0px;
+	width: 1em;
+	text-align: center;
+}
+
+.carry2{
+	background-color: #e0e0b0;
+	font-weight: bolder;
+	font-size: 24pt;
+	padding: 0px;
+	margin: 0px;
+	width: 1em;
+	text-align: center;
+}
+
+.carry1{
+	background-color: #ffffd0;
+
+	font-weight: bolder;
+	font-size: 24pt;
+	padding: 0px;
+	margin: 0px;
+	width: 1em;
+	text-align: center;
+}
+
+
+.answer{
+	background-color: #ffffff;
+	font-weight: bolder;
+	font-size: 24pt;
+	padding: 0px;
+	margin: 0px;
+	width: 1em;
+	text-align: center;
+}
+
+
+.inputCellBackground{
+	background-color: #ffffff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.carry1::placeholder {
+  font-weight: bold;
+  opacity: 0.3;
+  color:darkblue;
+}
+
+.carry2::placeholder {
+  font-weight: bold;
+  opacity: 0.3;
+  color:darkblue;
+}
+
+.carry3::placeholder {
+  font-weight: bold;
+  opacity: 0.3;
+  color:darkblue;
+}
+
+.answer::placeholder {
+  font-weight: bold;
+  opacity: 0.3;
+  color:darkblue;
+}
